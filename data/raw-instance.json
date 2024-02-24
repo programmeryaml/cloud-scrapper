@@ -1,0 +1,2241 @@
+{
+    "NextToken": "83f375efdbe00e8d3eb4ca8137077127ea5f7170c71907d5e0b5e8707e68181f",
+    "PageSize": 10,
+    "PageNumber": 1,
+    "RequestId": "F845DCE4-DFE5-3278-AB1B-5990CF07C878",
+    "TotalCount": 31,
+    "Instances": {
+        "Instance": [
+            {
+                "Hostname": "",
+                "ImageId": "m-k1adrfizq1bvop4jta6u",
+                "InstanceType": "ecs.c7.2xlarge",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "poc-wordpress-rizky",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-02-22T08:54Z",
+                "ZoneId": "ap-southeast-5a",
+                "InternetMaxBandwidthIn": -1,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "iZk1aga6869l2ud0qenz0jZ",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 8,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "Alibaba Cloud Linux  3.2104 LTS 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "Alibaba Cloud Linux  3.2104 LTS 64 bit",
+                "SerialNumber": "aaa5e2a2-a5ef-4539-bb20-34927e1eb696",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 0,
+                "ResourceGroupId": "rg-acfnuxc6yniveaa",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.c7",
+                "InstanceId": "i-k1aga6869l2ud0qenz0j",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 16384,
+                "CreationTime": "2024-02-21T15:38Z",
+                "AgentVersion": "",
+                "KeyPairName": "gdt-website-production",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": false,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1aj5smqsqul3dz2thf7"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": []
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "",
+                    "CoreCount": 4,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1acba4qfzz2hv1ttmdg1",
+                    "VpcId": "vpc-k1ag8xkujp5jcmt9batoe",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.15.0.139"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:03:34:7d",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1a24b1b3r1m73sthcul",
+                            "PrimaryIpAddress": "10.15.0.139",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.15.0.139",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": null
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            },
+            {
+                "Hostname": "",
+                "ImageId": "m-k1a1pau3d7z33q0fnpnj",
+                "InstanceType": "ecs.c7.xlarge",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "cloning-ecs-wordpress-jakarta-production",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-02-22T14:46Z",
+                "ZoneId": "ap-southeast-5a",
+                "InternetMaxBandwidthIn": -1,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "iZk1a50jqplq9kkl5fk5tsZ",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 4,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "Ubuntu  22.04 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "Ubuntu  22.04 64 bit",
+                "SerialNumber": "02aca98b-af70-455d-9df6-ba1c748bc8ab",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 0,
+                "ResourceGroupId": "",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.c7",
+                "InstanceId": "i-k1a50jqplq9kkl5fk5ts",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "An ECS instance came from terraform-alicloud-modules/ecs-instance",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 8192,
+                "CreationTime": "2024-02-20T09:29Z",
+                "AgentVersion": "",
+                "KeyPairName": "gdt-website-prod",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": false,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1aj5smqsqul3dz2thf7"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": []
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "N/A",
+                    "CoreCount": 2,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1acba4qfzz2hv1ttmdg1",
+                    "VpcId": "vpc-k1ag8xkujp5jcmt9batoe",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.15.0.138"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:01:e3:5c",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1a20nxxazk2qoh8az96",
+                            "PrimaryIpAddress": "10.15.0.138",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.15.0.138",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": [
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "production",
+                            "TagKey": "environment",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "ecs-wordpress-jakarta-production",
+                            "TagKey": "name",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "backend",
+                            "TagKey": "team",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "42244297-b32e-4b8a-a16a-9614a441a922",
+                            "TagKey": "acs:ros:stackId",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        }
+                    ]
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            },
+            {
+                "Hostname": "",
+                "ImageId": "aliyun_2_1903_x64_20G_alibase_20230308.vhd",
+                "InstanceType": "ecs.g7a.large",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "worker-k8s-for-cs-cd42d75b691004dfb914dab9ccf080abb",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-02-15T02:09Z",
+                "ZoneId": "ap-southeast-5a",
+                "InternetMaxBandwidthIn": -1,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "iZk1aftm95mfxbmiam17rnZ",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 2,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "Alibaba Cloud Linux  2.1903 LTS 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "Alibaba Cloud Linux 2.1903 LTS 64 bit",
+                "SerialNumber": "4981fb52-64c3-4d70-9225-cbfcb1285254",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 0,
+                "ResourceGroupId": "rg-acfnuxc6yniveaa",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.g7a",
+                "InstanceId": "i-k1aftm95mfxbmiam17rn",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "ESS",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 8192,
+                "CreationTime": "2024-02-15T02:09Z",
+                "AgentVersion": "",
+                "KeyPairName": "gd-bastion",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": true,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1afar8a0nweqom722vd"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": []
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "ON",
+                    "CoreCount": 1,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1acba4qfzz2hv1ttmdg1",
+                    "VpcId": "vpc-k1ag8xkujp5jcmt9batoe",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.15.0.135"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:03:b1:07",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1aeo3q897gjpwdrt1xl",
+                            "PrimaryIpAddress": "10.15.0.135",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.15.0.135",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": [
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "cd42d75b691004dfb914dab9ccf080abb",
+                            "TagKey": "ack.aliyun.com",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "npa673356fa5434347ba20108ef90c2c09",
+                            "TagKey": "ack.alibabacloud.com/nodepool-id",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "asg-k1acv1d37b38poiiyez5",
+                            "TagKey": "acs:autoscaling:scalingGroupId",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        }
+                    ]
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            },
+            {
+                "Hostname": "",
+                "ImageId": "aliyun_2_1903_x64_20G_alibase_20230308.vhd",
+                "InstanceType": "ecs.g7a.large",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "worker-k8s-for-cs-cd42d75b691004dfb914dab9ccf080abb",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-02-15T02:09Z",
+                "ZoneId": "ap-southeast-5b",
+                "InternetMaxBandwidthIn": -1,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "iZk1a20nxxazk00kny291eZ",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 2,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "Alibaba Cloud Linux  2.1903 LTS 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "Alibaba Cloud Linux 2.1903 LTS 64 bit",
+                "SerialNumber": "beb39d7b-7712-49ae-8554-c1907e680c9f",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 0,
+                "ResourceGroupId": "rg-acfnuxc6yniveaa",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.g7a",
+                "InstanceId": "i-k1a20nxxazk00kny291e",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "ESS",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 8192,
+                "CreationTime": "2024-02-15T02:09Z",
+                "AgentVersion": "",
+                "KeyPairName": "gd-bastion",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": true,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1afar8a0nweqom722vd"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": []
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "ON",
+                    "CoreCount": 1,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1ago70gui9rhgkbud6z6",
+                    "VpcId": "vpc-k1ag8xkujp5jcmt9batoe",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.15.4.17"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:03:7f:9f",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1aewgrr45nwtvm1odpr",
+                            "PrimaryIpAddress": "10.15.4.17",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.15.4.17",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": [
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "cd42d75b691004dfb914dab9ccf080abb",
+                            "TagKey": "ack.aliyun.com",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "npa673356fa5434347ba20108ef90c2c09",
+                            "TagKey": "ack.alibabacloud.com/nodepool-id",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "asg-k1acv1d37b38poiiyez5",
+                            "TagKey": "acs:autoscaling:scalingGroupId",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        }
+                    ]
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            },
+            {
+                "Hostname": "",
+                "ImageId": "aliyun_2_1903_x64_20G_alibase_20230308.vhd",
+                "InstanceType": "ecs.g7a.large",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "worker-k8s-for-cs-cd42d75b691004dfb914dab9ccf080abb",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-02-15T02:09Z",
+                "ZoneId": "ap-southeast-5b",
+                "InternetMaxBandwidthIn": -1,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "iZk1a20nxxazk00kny291fZ",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 2,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "Alibaba Cloud Linux  2.1903 LTS 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "Alibaba Cloud Linux 2.1903 LTS 64 bit",
+                "SerialNumber": "bde8cf99-41a4-4265-ab72-e60efcaf510a",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 0,
+                "ResourceGroupId": "rg-acfnuxc6yniveaa",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.g7a",
+                "InstanceId": "i-k1a20nxxazk00kny291f",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "ESS",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 8192,
+                "CreationTime": "2024-02-15T02:09Z",
+                "AgentVersion": "",
+                "KeyPairName": "gd-bastion",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": true,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1afar8a0nweqom722vd"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": []
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "ON",
+                    "CoreCount": 1,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1ago70gui9rhgkbud6z6",
+                    "VpcId": "vpc-k1ag8xkujp5jcmt9batoe",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.15.4.16"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:03:cd:30",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1ad0cudllcc6jy3dqk1",
+                            "PrimaryIpAddress": "10.15.4.16",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.15.4.16",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": [
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "cd42d75b691004dfb914dab9ccf080abb",
+                            "TagKey": "ack.aliyun.com",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "npa673356fa5434347ba20108ef90c2c09",
+                            "TagKey": "ack.alibabacloud.com/nodepool-id",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "asg-k1acv1d37b38poiiyez5",
+                            "TagKey": "acs:autoscaling:scalingGroupId",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        }
+                    ]
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            },
+            {
+                "Hostname": "",
+                "ImageId": "ubuntu_22_04_x64_20G_alibase_20240130.vhd",
+                "InstanceType": "ecs.c7.xlarge",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "gdti-dump-data-temp",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-02-10T18:13Z",
+                "ZoneId": "ap-southeast-5a",
+                "InternetMaxBandwidthIn": 3000,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "iZk1adrfizq1brc601r5s3Z",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 4,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "Ubuntu  22.04 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "Ubuntu  22.04 64 bit",
+                "SerialNumber": "aab53b55-8452-4335-b85e-9a62f15e0648",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 5,
+                "ResourceGroupId": "",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.c7",
+                "InstanceId": "i-k1adrfizq1brc601r5s3",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 8192,
+                "CreationTime": "2024-02-10T17:04Z",
+                "AgentVersion": "",
+                "KeyPairName": "gdti",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": false,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1ab2wu1dozy1wgm9s2d"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": [
+                        "149.129.255.242"
+                    ]
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "N/A",
+                    "CoreCount": 2,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1a5wp2breitel5inb5l3",
+                    "VpcId": "vpc-k1adu1n2hi62oxkrylxkp",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.0.1.112"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:01:8f:2e",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1aftm95mfx9di2xsrc4",
+                            "PrimaryIpAddress": "10.0.1.112",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.0.1.112",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": null
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            },
+            {
+                "Hostname": "",
+                "ImageId": "aliyun_2_1903_x64_20G_alibase_20230308.vhd",
+                "InstanceType": "ecs.g7a.large",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "worker-k8s-for-cs-cd42d75b691004dfb914dab9ccf080abb",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-02-06T13:52Z",
+                "ZoneId": "ap-southeast-5a",
+                "InternetMaxBandwidthIn": -1,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "iZk1adrfizq1bp7pjxiiprZ",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 2,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "Alibaba Cloud Linux  2.1903 LTS 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "Alibaba Cloud Linux 2.1903 LTS 64 bit",
+                "SerialNumber": "ed55ad51-d30c-4281-8a4e-4fe858b53a29",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 0,
+                "ResourceGroupId": "rg-acfnuxc6yniveaa",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.g7a",
+                "InstanceId": "i-k1adrfizq1bp7pjxiipr",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "ESS",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 8192,
+                "CreationTime": "2024-02-06T13:52Z",
+                "AgentVersion": "",
+                "KeyPairName": "gd-bastion",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": true,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1afar8a0nweqom722vd"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": []
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "ON",
+                    "CoreCount": 1,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1acba4qfzz2hv1ttmdg1",
+                    "VpcId": "vpc-k1ag8xkujp5jcmt9batoe",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.15.0.133"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:03:a4:f8",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1a1d3ql8pejfv273vsj",
+                            "PrimaryIpAddress": "10.15.0.133",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.15.0.133",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": [
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "cd42d75b691004dfb914dab9ccf080abb",
+                            "TagKey": "ack.aliyun.com",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "npa673356fa5434347ba20108ef90c2c09",
+                            "TagKey": "ack.alibabacloud.com/nodepool-id",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "asg-k1acv1d37b38poiiyez5",
+                            "TagKey": "acs:autoscaling:scalingGroupId",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        }
+                    ]
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            },
+            {
+                "Hostname": "",
+                "ImageId": "aliyun_2_1903_x64_20G_alibase_20230308.vhd",
+                "InstanceType": "ecs.g7a.large",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "worker-k8s-for-cs-cd42d75b691004dfb914dab9ccf080abb",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-02-06T13:52Z",
+                "ZoneId": "ap-southeast-5c",
+                "InternetMaxBandwidthIn": -1,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "iZk1adho3gbewqz7gecavwZ",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 2,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "Alibaba Cloud Linux  2.1903 LTS 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "Alibaba Cloud Linux 2.1903 LTS 64 bit",
+                "SerialNumber": "a1aefe72-9bc5-4e2f-a3a4-cdaf3181d948",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 0,
+                "ResourceGroupId": "rg-acfnuxc6yniveaa",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.g7a",
+                "InstanceId": "i-k1adho3gbewqz7gecavw",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "ESS",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 8192,
+                "CreationTime": "2024-02-06T13:52Z",
+                "AgentVersion": "",
+                "KeyPairName": "gd-bastion",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": true,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1afar8a0nweqom722vd"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": []
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "ON",
+                    "CoreCount": 1,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1a76vgr4m42ynmgqel8u",
+                    "VpcId": "vpc-k1ag8xkujp5jcmt9batoe",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.15.9.138"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:01:de:3c",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1aewgrr45nsgey911u0",
+                            "PrimaryIpAddress": "10.15.9.138",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.15.9.138",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": [
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "cd42d75b691004dfb914dab9ccf080abb",
+                            "TagKey": "ack.aliyun.com",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "npa673356fa5434347ba20108ef90c2c09",
+                            "TagKey": "ack.alibabacloud.com/nodepool-id",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "asg-k1acv1d37b38poiiyez5",
+                            "TagKey": "acs:autoscaling:scalingGroupId",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        }
+                    ]
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            },
+            {
+                "Hostname": "",
+                "ImageId": "aliyun_2_1903_x64_20G_alibase_20230308.vhd",
+                "InstanceType": "ecs.g7a.large",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "worker-k8s-for-cs-cd42d75b691004dfb914dab9ccf080abb",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-02-06T13:52Z",
+                "ZoneId": "ap-southeast-5c",
+                "InternetMaxBandwidthIn": -1,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "iZk1adho3gbewqz7gecavvZ",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 2,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "Alibaba Cloud Linux  2.1903 LTS 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "Alibaba Cloud Linux 2.1903 LTS 64 bit",
+                "SerialNumber": "93dc3ef7-52c0-414a-ac84-bb2062bc559a",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 0,
+                "ResourceGroupId": "rg-acfnuxc6yniveaa",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.g7a",
+                "InstanceId": "i-k1adho3gbewqz7gecavv",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "ESS",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 8192,
+                "CreationTime": "2024-02-06T13:52Z",
+                "AgentVersion": "",
+                "KeyPairName": "gd-bastion",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": true,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1afar8a0nweqom722vd"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": []
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "ON",
+                    "CoreCount": 1,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1a76vgr4m42ynmgqel8u",
+                    "VpcId": "vpc-k1ag8xkujp5jcmt9batoe",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.15.9.137"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:03:a6:8e",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1aai0r6u9h0b6plf0ed",
+                            "PrimaryIpAddress": "10.15.9.137",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.15.9.137",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": [
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "cd42d75b691004dfb914dab9ccf080abb",
+                            "TagKey": "ack.aliyun.com",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "npa673356fa5434347ba20108ef90c2c09",
+                            "TagKey": "ack.alibabacloud.com/nodepool-id",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        },
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "asg-k1acv1d37b38poiiyez5",
+                            "TagKey": "acs:autoscaling:scalingGroupId",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        }
+                    ]
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            },
+            {
+                "Hostname": "",
+                "ImageId": "centos_7_9_x64_20G_alibase_20231220.vhd",
+                "InstanceType": "ecs.c6.2xlarge",
+                "AutoReleaseTime": "",
+                "LastInvokedTime": "",
+                "OsType": "",
+                "DeviceAvailable": true,
+                "InstanceNetworkType": "vpc",
+                "RegistrationTime": "",
+                "LocalStorageAmount": 0,
+                "NetworkType": "",
+                "IntranetIp": "",
+                "IsSpot": false,
+                "InstanceChargeType": "PostPaid",
+                "MachineId": "",
+                "PrivatePoolOptionsId": "",
+                "ClusterId": "",
+                "SocketId": "",
+                "InstanceName": "titan-data-migration-temp",
+                "PrivatePoolOptionsMatchCriteria": "",
+                "DeploymentSetGroupNo": 0,
+                "CreditSpecification": "",
+                "GPUAmount": 0,
+                "Connected": false,
+                "InvocationCount": 0,
+                "StartTime": "2024-01-29T07:13Z",
+                "ZoneId": "ap-southeast-5a",
+                "InternetMaxBandwidthIn": -1,
+                "InternetChargeType": "PayByTraffic",
+                "HostName": "ecs-data-migration-temp",
+                "Status": "Running",
+                "CPU": 0,
+                "Cpu": 8,
+                "ISP": "",
+                "OsVersion": "",
+                "SpotPriceLimit": 0,
+                "OSName": "CentOS  7.9 64位",
+                "InstanceOwnerId": 0,
+                "OSNameEn": "CentOS  7.9 64 bit",
+                "SerialNumber": "86d35269-4221-489c-9964-796ca0e8c2a5",
+                "RegionId": "ap-southeast-5",
+                "IoOptimized": true,
+                "InternetMaxBandwidthOut": 0,
+                "ResourceGroupId": "rg-acfnuxc6yniveaa",
+                "ActivationId": "",
+                "InstanceTypeFamily": "ecs.c6",
+                "InstanceId": "i-k1a0frp5hf1uf5cuizzk",
+                "DeploymentSetId": "",
+                "GPUSpec": "",
+                "Description": "",
+                "Recyclable": false,
+                "SaleCycle": "",
+                "ExpiredTime": "2099-12-31T15:59Z",
+                "OSType": "linux",
+                "InternetIp": "",
+                "Memory": 16384,
+                "CreationTime": "2024-01-29T07:13Z",
+                "AgentVersion": "",
+                "KeyPairName": "gdt-data-migration",
+                "HpcClusterId": "",
+                "LocalStorageCapacity": 0,
+                "VlanId": "",
+                "StoppedMode": "Not-applicable",
+                "SpotStrategy": "NoSpot",
+                "SpotDuration": 0,
+                "DeletionProtection": false,
+                "SpotInterruptionBehavior": "",
+                "SecurityGroupIds": {
+                    "SecurityGroupId": [
+                        "sg-k1a116mz6g89ayrvtvq6"
+                    ]
+                },
+                "InnerIpAddress": {
+                    "IpAddress": []
+                },
+                "PublicIpAddress": {
+                    "IpAddress": []
+                },
+                "RdmaIpAddress": {
+                    "IpAddress": null
+                },
+                "ImageOptions": {
+                    "LoginAsNonRoot": false
+                },
+                "DedicatedHostAttribute": {
+                    "DedicatedHostName": "",
+                    "DedicatedHostClusterId": "",
+                    "DedicatedHostId": ""
+                },
+                "EcsCapacityReservationAttr": {
+                    "CapacityReservationPreference": "",
+                    "CapacityReservationId": ""
+                },
+                "CpuOptions": {
+                    "Numa": "",
+                    "CoreCount": 4,
+                    "ThreadsPerCore": 2,
+                    "TopologyType": ""
+                },
+                "HibernationOptions": {
+                    "Configured": false
+                },
+                "DedicatedInstanceAttribute": {
+                    "Affinity": "",
+                    "Tenancy": ""
+                },
+                "EipAddress": {
+                    "IsSupportUnassociate": false,
+                    "InternetChargeType": "",
+                    "IpAddress": "",
+                    "Bandwidth": 0,
+                    "AllocationId": ""
+                },
+                "MetadataOptions": {
+                    "HttpEndpoint": "",
+                    "HttpPutResponseHopLimit": 0,
+                    "HttpTokens": ""
+                },
+                "VpcAttributes": {
+                    "VSwitchId": "vsw-k1amwmr1uca8s3ilijy2a",
+                    "VpcId": "vpc-k1ab32tj2qc0y08ppaa4c",
+                    "NatIpAddress": "",
+                    "PrivateIpAddress": {
+                        "IpAddress": [
+                            "10.10.3.148"
+                        ]
+                    }
+                },
+                "NetworkInterfaces": {
+                    "NetworkInterface": [
+                        {
+                            "SecurityGroupId": "",
+                            "VSwitchId": "",
+                            "InstanceType": "",
+                            "MacAddress": "00:16:3e:03:bf:4c",
+                            "NetworkInterfaceTrafficMode": "",
+                            "NetworkInterfaceName": "",
+                            "NetworkInterfaceId": "eni-k1a3ezp6gjg7fxk77nqn",
+                            "PrimaryIpAddress": "10.10.3.148",
+                            "Description": "",
+                            "Type": "Primary",
+                            "SecurityGroupIds": {
+                                "SecurityGroupId": null
+                            },
+                            "Ipv6PrefixSets": {
+                                "Ipv6PrefixSet": null
+                            },
+                            "Ipv4PrefixSets": {
+                                "Ipv4PrefixSet": null
+                            },
+                            "Ipv6Sets": {
+                                "Ipv6Set": null
+                            },
+                            "PrivateIpSets": {
+                                "PrivateIpSet": [
+                                    {
+                                        "PrivateIpAddress": "10.10.3.148",
+                                        "Primary": true,
+                                        "AssociatedPublicIp": {
+                                            "PublicIpAddress": "",
+                                            "AllocationId": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Tags": {
+                    "Tag": [
+                        {
+                            "Key": "",
+                            "Value": "",
+                            "TagValue": "data",
+                            "TagKey": "team",
+                            "ResourceTypeCount": {
+                                "Instance": 0,
+                                "Image": 0,
+                                "Ddh": 0,
+                                "SnapshotPolicy": 0,
+                                "Securitygroup": 0,
+                                "Snapshot": 0,
+                                "ReservedInstance": 0,
+                                "LaunchTemplate": 0,
+                                "Eni": 0,
+                                "Disk": 0,
+                                "KeyPair": 0,
+                                "Volume": 0
+                            }
+                        }
+                    ]
+                },
+                "OperationLocks": {
+                    "LockReason": []
+                }
+            }
+        ]
+    }
+}
